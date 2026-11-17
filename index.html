@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes — Personal Google API Automation</title>
+<meta name="description" content="A personal, single-user automation tool that accesses only its operator's own Google account.">
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; background: #ffffff; color: #1c1c1c;
+         font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         line-height: 1.6; }
+  main { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 .35rem; }
+  .sub { color: #555; margin: 0 0 2rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
+  p, li { font-size: 1rem; }
+  ul { padding-left: 1.25rem; }
+  a { color: #0b57d0; }
+  nav { margin: 0 0 2rem; padding-bottom: 1rem; border-bottom: 1px solid #e3e3e3; }
+  nav a { margin-right: 1.25rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e3e3e3; color: #555; font-size: .9rem; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #111; color: #e8e8e8; }
+    .sub, footer { color: #a8a8a8; }
+    nav, footer { border-color: #333; }
+    a { color: #8ab4f8; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <nav>
+    <a href="index.html">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of Service</a>
+  </nav>
+
+  <h1>Hermes — a personal automation tool for one Google account</h1>
+  <p class="sub">Private, single-user software. Not offered to the public.</p>
+
+  <h2>What this is</h2>
+  <p>Hermes is a personal automation tool written and used by one individual, Jay, to work with
+  <strong>his own</strong> Google account. It is registered in Google Cloud as project
+  <code>hermes-504209</code>. There is exactly one user of this application: its author and operator.
+  There is no sign-up, no account creation for third parties, and no way for anyone else to use it.</p>
+
+  <h2>What it does</h2>
+  <p>With the account owner's explicit authorisation through Google's standard OAuth consent flow, the
+  tool uses the Google APIs to:</p>
+  <ul>
+    <li>list and read files in his own Google Drive, and the Google Docs and Sheets documents among them;</li>
+    <li>read messages in his own Gmail mailbox;</li>
+    <li>read events in his own Google Calendar;</li>
+    <li>build a private, local index of those items so that he can search his own material and keep
+        references to it in one place.</li>
+  </ul>
+  <p>Everything the tool does is for the account owner, on his own machine, on his own data. It does not
+  act on behalf of anyone else, and it does not send, post, share or publish anything.</p>
+
+  <h2>Availability</h2>
+  <p>This is not a public product or a hosted service. It is not distributed, it is not installed by
+  others, and access to it is limited to the operator's own computer and his own Google account.
+  The pages on this site exist for the two reasons Google requires of an OAuth client: a public home
+  page describing what the application does, and a public privacy policy.</p>
+
+  <h2>Privacy and terms</h2>
+  <p>How Google user data is accessed, used, stored and deleted is set out in the
+  <a href="privacy.html">Privacy policy</a>. The conditions of use are in the
+  <a href="terms.html">Terms of Service</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Operator and sole point of contact:
+  <a href="mailto:vshagan@gmail.com">vshagan@gmail.com</a>.</p>
+
+  <footer>
+    Last updated: 17 November 2026. This page is static HTML: no cookies, no JavaScript, no tracking,
+    no third-party assets.
+  </footer>
+</main>
+</body>
+</html>
